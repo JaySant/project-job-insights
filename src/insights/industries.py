@@ -20,4 +20,3 @@ def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
         if job.get('industry') == industry:
             filtered_industry.append(job)
     return filtered_industry
-
